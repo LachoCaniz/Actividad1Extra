@@ -1,0 +1,81 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para la calculadora */
+  .calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .calculadora h1 {
+    margin-top: 0;
+  }
+  
+  .calculadora form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .calculadora form label {
+    font-weight: bold;
+  }
+  
+  .calculadora form select,
+  .calculadora form input[type="number"],
+  .calculadora form button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .calculadora form select {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .calculadora form input[type="number"] {
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .calculadora form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .calculadora form button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Estilos para el historial */
+  .historial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .historial h2 {
+    margin-top: 0;
+  }
+  
+  .historial li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    list-style: none;
+    color: #555;
+  }
+  
